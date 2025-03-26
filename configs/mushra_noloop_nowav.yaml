@@ -17,6 +17,7 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
+      sliderCount: 2 
       reference: configs/resources/audio/mono_ref.wav
       createAnchor35: false
       createAnchor70: false
