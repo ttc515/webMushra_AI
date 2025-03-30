@@ -11,6 +11,21 @@ remoteService: service/write.php
 
 pages:
 
+    - type: likertMultiStimulus
+          id: language_familiarity
+          name: Language Familiarity
+          content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar):"
+          stimuli:
+              Lang_eng: English
+              Lang_jp: Japanese
+              Lang_man: Mandarin
+              Lang_canto: Cantonese
+          sliderMin: 0
+          sliderMax: 100
+          sliderStep: 1
+          createAnchor35: false
+          createAnchor70: false
+
     - type: mushra
       id: trial2
       name: Mono Trial
