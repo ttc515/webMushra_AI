@@ -11,10 +11,7 @@ remoteService: service/write.php
 
 pages:
 
-    - type: languageFamiliarity
-      id: lang_fam
-      name: Language Familiarity
-      content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
+    
     
 
     - type: mushra
@@ -31,6 +28,11 @@ pages:
           C1: configs/resources/audio/mono_c1.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
+
+    - type: languageFamiliarity
+      id: lang_fam
+      name: Language Familiarity
+      content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
 
     - type: mushra
       id: trial2
