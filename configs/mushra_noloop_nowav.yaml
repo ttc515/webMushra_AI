@@ -11,6 +11,12 @@ remoteService: service/write.php
 
 pages:
 
+    - type: languageFamiliarity
+      id: lang_fam
+      name: Language Familiarity
+      content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
+    
+
     - type: mushra
       id: trial2
       name: Mono Trial
