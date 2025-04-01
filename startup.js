@@ -106,8 +106,8 @@ function addPagesToPageManager(_pageManager, _pages) {
         var finishPage = new FinishPage(_pageManager, session, dataSender, pageConfig, config.language);
         _pageManager.addPage(finishPage);
       } else if (pageConfig.type == "languageFamiliarity") {
-      var langPage = new LanguageFamiliarityPage(_pageManager, pageConfig, config.language);
-      _pageManager.addPage(langPage);
+        var page = new LanguageFamiliarityPage(_pageManager, session, pageConfig, config.language);
+        _pageManager.addPage(page);
       } else {
 
         errorHandler.sendError("Type not specified.");
