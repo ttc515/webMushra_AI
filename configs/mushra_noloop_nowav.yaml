@@ -12,7 +12,7 @@ remoteService: service/write.php
 pages:
 
     - type: consent
-      cotent: "This is a MUSHRA listening test aiming to investigate on participants perception and ability to identify AI singers. You may choose not to answer any questions or exit the test at anytime."
+      content: "This is a MUSHRA listening test aiming to investigate on participants perception and ability to identify AI singers. You may choose not to answer any questions or exit the test at anytime."
 
     - type: languageFamiliarity
       id: lang_fam
