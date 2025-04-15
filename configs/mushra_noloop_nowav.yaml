@@ -12,7 +12,12 @@ remoteService: service/write.php
 pages:
 
     - type: consent
-      content: "This is a MUSHRA listening test aiming to investigate on participants perception and ability to identify AI singers. You may choose not to answer any questions or exit the test at anytime."
+      content: "This is a MUSHRA listening test designed to investigate participants' perception of and ability to identify AI-generated singers. You will listen to a series of short audio samples sung by either AI or human performers. For each sample, you will provide two ratings:
+                Human-likeness – how much the voice sounds like a human singer (0 = clearly AI, 100 = clearly human)
+                Quality and appeal – how much you would enjoy hearing the track in a concert (0 = poor quality / not enjoyable, 100 = excellent / very enjoyable)
+                The test will take approximately 10–15 minutes to complete. Your responses will be anonymised and securely stored. Participation is voluntary, and you may choose not to answer any question or exit the test at any time.
+                
+                Before starting the test, please adjust the volume starting from 0 to a comfortable level."
 
     - type: languageFamiliarity
       id: lang_fam
