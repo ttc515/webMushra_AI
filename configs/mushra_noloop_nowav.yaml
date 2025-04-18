@@ -63,11 +63,11 @@ pages:
       showWaveform: false
       enableLooping: false 
       #sliderCount: 2 
-      reference: configs/resources/audio/39_ref.wav
+      reference: configs/resources/audio/39_AIkim.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/39_AIkim.wav
+          C1: configs/resources/audio/39_ref.wav
           C2: configs/resources/audio/39_AIace.wav
 
     
