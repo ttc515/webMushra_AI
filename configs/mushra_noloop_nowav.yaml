@@ -63,11 +63,11 @@ pages:
       showWaveform: false
       enableLooping: false 
       #sliderCount: 2 
-      reference: configs/resources/audio/39_AIkim.wav
+      reference: configs/resources/audio/39_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/39_ref.wav
+          C1: configs/resources/audio/39_AI_kim.wav
           C2: configs/resources/audio/39_AIace.wav
 
     
@@ -86,11 +86,8 @@ pages:
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
 
-    - type: languageFamiliarity
-      id: lang_fam
-      name: Language Familiarity
-      content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
     
+  
 
     - type: mushra
       id: trial2
