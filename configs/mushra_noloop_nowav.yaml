@@ -40,6 +40,8 @@ pages:
           C2: configs/resources/audio/Smbdytolv_mj.wav
           C3: configs/resources/audio/Smbdytolv_adam.wav
           C4: configs/resources/audio/Smbdytolv_audit.wav
+          C5: configs/resources/audio/Smbdytolv_CD.wav
+          C6: configs/resources/audio/Smbdytolv_r.wav
     
 
     - type: mushra
