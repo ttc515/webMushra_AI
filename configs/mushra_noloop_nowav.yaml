@@ -79,7 +79,7 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/Watame.wav
+      reference: configs/resources/audio/JP_suno.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
