@@ -166,8 +166,8 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/1_AImodel.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+          #C2: configs/resources/audio/mono_c2.wav
+          #C3: configs/resources/audio/mono_c3.wav
 
     
 
