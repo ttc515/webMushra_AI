@@ -54,7 +54,7 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Eng_suno_c1.wav
+          C1: configs/resources/audio/Eng_suno.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
 
