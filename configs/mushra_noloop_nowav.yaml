@@ -157,15 +157,15 @@ pages:
     - type: mushra
       id: trial2
       name: Mono Trial
-      content: test description
+      content: Cantonese test 1
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/1_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
+          C1: configs/resources/audio/1_AImodel.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
 
