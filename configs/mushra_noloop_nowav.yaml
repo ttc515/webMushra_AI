@@ -3,7 +3,7 @@
 
 testname: MUSHRA without looping and waveform
 testId: mushra_noloop_nowav
-bufferSize: 2048
+bufferSize: 4096
 stopOnErrors: true
 showButtonPreviousPage: true
 remoteService: service/write.php
@@ -18,6 +18,7 @@ pages:
                 The test will take approximately 10–15 minutes to complete. Your responses will be anonymised and securely stored. Participation is voluntary, and you may choose not to answer any question or exit the test at any time.
                 
                 Before starting the test, please adjust the volume starting from 0 to a comfortable level."
+
 
     - type: languageFamiliarity
       id: lang_fam
@@ -38,7 +39,6 @@ pages:
       stimuli:
           C1: configs/resources/audio/Smbdytolv_crab.wav
           C2: configs/resources/audio/Smbdytolv_mj.wav
-          #C3: configs/resources/audio/Smbdytolv_adam.wav
           C3: configs/resources/audio/Smbdytolv_audit.wav
           C4: configs/resources/audio/Smbdytolv_CD.wav
           C5: configs/resources/audio/Smbdytolv_r.wav
