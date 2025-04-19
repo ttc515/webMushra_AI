@@ -32,14 +32,14 @@ pages:
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/Smbdytolv_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
-
+          C1: configs/resources/audio/Smbdytolv_crab.wav
+          C2: configs/resources/audio/Smbdytolv_mj.wav
+          C3: configs/resources/audio/Smbdytolv_adam.wav
+          C4: configs/resources/audio/Smbdytolv_audit.wav
     
 
     - type: mushra
@@ -68,7 +68,7 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/39_AI_kim.wav
-          C2: configs/resources/audio/39_AIace.wav
+          C2: configs/resources/audio/39_AI_ace.wav
 
     
 
@@ -96,13 +96,14 @@ pages:
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/mono_ref.wav
+      reference: configs/resources/audio/TianHou_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
-          C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+          C1: configs/resources/audio/TianHou_justin.wav
+          C2: configs/resources/audio/TianHou_boi.wav
+          C3: configs/resources/audio/TianHou_xzhiq.wav
+          C4: configs/resources/audio/TianHou_david.wav
 
     
 
