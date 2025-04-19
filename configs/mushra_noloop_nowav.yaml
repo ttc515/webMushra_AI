@@ -104,7 +104,7 @@ pages:
       stimuli:
           C1: configs/resources/audio/TianHou_justin.wav
           C2: configs/resources/audio/TianHou_boi.wav
-          C3: configs/resources/audio/TianHou_xzhiq.wav
+          C3: configs/resources/audio/TianHou_xzhq.wav
           C4: configs/resources/audio/TianHou_david.wav
 
     
