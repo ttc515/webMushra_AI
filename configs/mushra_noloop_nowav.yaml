@@ -125,7 +125,7 @@ pages:
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/mono_c1.wav
+          C1: configs/resources/audio/Mandarin_suno.wav
           C2: configs/resources/audio/mono_c2.wav
           C3: configs/resources/audio/mono_c3.wav
 
@@ -141,9 +141,10 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/1_AImodel.wav
-          #C2: configs/resources/audio/mono_c2.wav
-          #C3: configs/resources/audio/mono_c3.wav
-
+          C2: configs/resources/audio/1_WanK.wav
+          C3: configs/resources/audio/1_cover1.wav
+          C4: configs/resources/audio/1_cover2.wav
+          C5: configs/resources/audio/1_cm.wav
     
 
     - type: mushra
@@ -152,13 +153,13 @@ pages:
       content: Cantonese songs 2
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/IN_K.wav
+      reference: configs/resources/audio/CantoIndie.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Mandarin_suno.wav
+          C1: configs/resources/audio/Suno_CantoRap.wav
           C2: configs/resources/audio/mono_c2.wav
-          C3: configs/resources/audio/mono_c3.wav
+          C3: configs/resources/audio/Suno_CantoPop.wav
 
 
     - type: finish
