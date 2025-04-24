@@ -92,6 +92,7 @@ pages:
           C2: configs/resources/audio/39_suno.wav
           C3: configs/resources/audio/Choco.wav
           C4: configs/resources/audio/VoisonaUI.wav
+          C5: configs/resources/audio/KAFU1.1.wav
 
     
   
