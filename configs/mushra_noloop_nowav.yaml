@@ -50,7 +50,7 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/Eng_suno.wav
+      reference: configs/resources/audio/1min_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
@@ -84,13 +84,14 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/JP_suno.wav
+      reference: configs/resources/audio/Utawaku.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/JP_suno.wav
           C2: configs/resources/audio/39_suno.wav
-          C3: configs/resources/audio/mono_c3.wav
+          C3: configs/resources/audio/Choco.wav
+          C4: configs/resources/audio/VoisonaUI.wav
 
     
   
