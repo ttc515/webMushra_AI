@@ -55,6 +55,9 @@ pages:
       createAnchor70: false
       stimuli:
           C1: configs/resources/audio/Eng_suno.wav
+          C2: configs/resources/audio/Callmyname.wav
+          C3: configs/resources/audio/1min_suno.wav
+          C4: configs/resources/audio/Eyes_SUNO.wav
           
 
     - type: mushra
@@ -70,6 +73,8 @@ pages:
       stimuli:
           C1: configs/resources/audio/39_AI_kim.wav
           C2: configs/resources/audio/39_AI_ace.wav
+          C3: configs/resources/audio/39_39.wav
+          C4: configs/resources/audio/39_VT.wav
 
     
 
