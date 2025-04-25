@@ -30,7 +30,11 @@ pages:
     
     
 
-    
+    - type: gender
+      id: demographics_gender
+      name: Gender
+      content: Please select your gender from the list below.
+
 
     
 
