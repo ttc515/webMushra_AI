@@ -30,7 +30,7 @@ pages:
     - type: generic
       id: ai_reasoning
       name: Demographics & AI Reasoning
-      content: Please select your gender and list the main features that influenced your decision in bullet points.
+      content: "Please select your gender and list the main features that influenced your decision in bullet points."
       #gender: true
     
 
@@ -39,7 +39,7 @@ pages:
     - type: mushra
       id: trial2
       name: English test 1
-      content: For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs.
+      content: "For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs."
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
