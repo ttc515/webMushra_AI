@@ -35,15 +35,15 @@ pages:
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/Smbdytolv_ref.wav
+      reference: configs/resources/audio/normalised_Smbdytolv_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Smbdytolv_crab.wav
-          C2: configs/resources/audio/Smbdytolv_mj.wav
-          C3: configs/resources/audio/Smbdytolv_audit.wav
-          C4: configs/resources/audio/Smbdytolv_CD.wav
-          C5: configs/resources/audio/Smbdytolv_r.wav
+          C1: configs/resources/audio/normalised_Smbdytolv_crab.wav
+          C2: configs/resources/audio/normalised_Smbdytolv_mj.wav
+          C3: configs/resources/audio/normalised_Smbdytolv_audit.wav
+          C4: configs/resources/audio/normalised_Smbdytolv_CD.wav
+          C5: configs/resources/audio/normalised_Smbdytolv_r.wav
     
 
     - type: mushra
@@ -52,14 +52,14 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/1min_ref.wav
+      reference: configs/resources/audio/normalised_1min_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Eng_suno.wav
-          C2: configs/resources/audio/Callmyname.wav
-          C3: configs/resources/audio/1min_suno.wav
-          C4: configs/resources/audio/Eyes_SUNO.wav
+          C1: configs/resources/audio/normalised_Eng_suno.wav
+          C2: configs/resources/audio/normalised_Callmyname.wav
+          C3: configs/resources/audio/normalised_1min_suno.wav
+          C4: configs/resources/audio/normalised_Eyes_SUNO.wav
           
 
     - type: mushra
@@ -69,14 +69,14 @@ pages:
       showWaveform: false
       enableLooping: false 
       #sliderCount: 2 
-      reference: configs/resources/audio/39_ref.wav
+      reference: configs/resources/audio/normalised_39_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/39_AI_kim.wav
-          C2: configs/resources/audio/39_AI_ace.wav
-          C3: configs/resources/audio/39_39.wav
-          C4: configs/resources/audio/39_VT.wav
+          C1: configs/resources/audio/normalised_39_AI_kim.wav
+          C2: configs/resources/audio/normalised_39_AI_ace.wav
+          C3: configs/resources/audio/normalised_39_39.wav
+          C4: configs/resources/audio/normalised_39_VT.wav
 
     
 
@@ -86,15 +86,15 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/Utawaku.wav
+      reference: configs/resources/audio/normalised_Utawaku.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/JP_suno.wav
-          C2: configs/resources/audio/39_suno.wav
-          C3: configs/resources/audio/Choco.wav
-          C4: configs/resources/audio/VoisonaUI.wav
-          C5: configs/resources/audio/KAFU1.1.wav
+          C1: configs/resources/audio/normalised_JP_suno.wav
+          C2: configs/resources/audio/normalised_39_suno.wav
+          C3: configs/resources/audio/normalised_Choco.wav
+          C4: configs/resources/audio/normalised_VoisonaUI.wav
+          C5: configs/resources/audio/normalised_KAFU1.1.wav
 
     
   
@@ -106,14 +106,14 @@ pages:
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/TianHou_ref.wav
+      reference: configs/resources/audio/normalised_TianHou_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/TianHou_justin.wav
-          C2: configs/resources/audio/TianHou_boi.wav
-          C3: configs/resources/audio/TianHou_xzhq.wav
-          C4: configs/resources/audio/TianHou_david.wav
+          C1: configs/resources/audio/normalised_TianHou_justin.wav
+          C2: configs/resources/audio/normalised_TianHou_boi.wav
+          C3: configs/resources/audio/normalised_TianHou_xzhq.wav
+          C4: configs/resources/audio/normalised_TianHou_david.wav
 
     
 
@@ -123,14 +123,14 @@ pages:
       content: test description
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/IN_K.wav
+      reference: configs/resources/audio/normalised_IN_K.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Mandarin_suno.wav
-          C2: configs/resources/audio/ManIndie2.wav
-          C3: configs/resources/audio/Man_suno2.wav
-          C4: configs/resources/audio/ManIndie3.wav
+          C1: configs/resources/audio/normalised_Mandarin_suno.wav
+          C2: configs/resources/audio/normalised_ManIndie2.wav
+          C3: configs/resources/audio/normalised_Man_suno2.wav
+          C4: configs/resources/audio/normalised_ManIndie3.wav
 
     - type: mushra
       id: trial2
@@ -139,15 +139,15 @@ pages:
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
-      reference: configs/resources/audio/1_ref.wav
+      reference: configs/resources/audio/normalised_1_ref.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/1_AImodel.wav
-          C2: configs/resources/audio/1_WanK.wav
-          C3: configs/resources/audio/1_cover1.wav
-          C4: configs/resources/audio/1_cover2.wav
-          C5: configs/resources/audio/1_cm.wav
+          C1: configs/resources/audio/normalised_1_AImodel.wav
+          C2: configs/resources/audio/normalised_1_WanK.wav
+          C3: configs/resources/audio/normalised_1_cover1.wav
+          C4: configs/resources/audio/normalised_1_cover2.wav
+          C5: configs/resources/audio/normalised_1_cm.wav
     
 
     - type: mushra
@@ -156,14 +156,14 @@ pages:
       content: Cantonese songs 2
       showWaveform: false
       enableLooping: false 
-      reference: configs/resources/audio/CantoIndie.wav
+      reference: configs/resources/audio/normalised_CantoIndie.wav
       createAnchor35: false
       createAnchor70: false
       stimuli:
-          C1: configs/resources/audio/Suno_CantoRap.wav
-          C2: configs/resources/audio/CantoRap.wav
-          C3: configs/resources/audio/Suno_CantoPop.wav
-          C4: configs/resources/audio/CantoIndie2.wav
+          C1: configs/resources/audio/normalised_Suno_CantoRap.wav
+          C2: configs/resources/audio/normalised_CantoRap.wav
+          C3: configs/resources/audio/normalised_Suno_CantoPop.wav
+          C4: configs/resources/audio/normalised_CantoIndie2.wav
 
 
     - type: finish
