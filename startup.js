@@ -106,11 +106,11 @@ function addPagesToPageManager(_pageManager, _pages) {
         var finishPage = new FinishPage(_pageManager, session, dataSender, pageConfig, config.language);
         _pageManager.addPage(finishPage);
       } else if (pageConfig.type == "languageFamiliarity") {
-        var page = new LanguageFamiliarityPage(_pageManager, session, pageConfig, config.language);
-        _pageManager.addPage(page);
+        var lanpage = new LanguageFamiliarityPage(_pageManager, session, pageConfig, config.language);
+        _pageManager.addPage(lanpage);
       } else if (pageConfig.type == "gender") {
-        var Genderpage = new GenderPage(_pageManager, session, pageConfig, config.language);
-        _pageManager.addPage(Genderpage);
+        var genpage = new GenderPage(_pageManager, session, pageConfig, config.language);
+        _pageManager.addPage(genpage);
       }
        else {
 
