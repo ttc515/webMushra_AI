@@ -30,8 +30,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: English songs 1
-      content: test description
+      name: English test 1
+      content: There will be 2 tests for each language. Test 1 will be same song; Test 2 will be different song.
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
@@ -48,8 +48,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: English songs 2
-      content: test description
+      name: English test 2
+      content: 
       showWaveform: false
       enableLooping: false 
       reference: configs/resources/audio/normalised_1min_ref.wav
@@ -64,8 +64,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Japanese songs 1
-      content: test description
+      name: Japanese test 1
+      content: 
       showWaveform: false
       enableLooping: false 
       #sliderCount: 2 
@@ -82,8 +82,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Japanese songs 2
-      content: test description
+      name: Japanese test 2
+      content: 
       showWaveform: false
       enableLooping: false 
       reference: configs/resources/audio/normalised_Utawaku.wav
@@ -101,8 +101,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Mandarin songs 1
-      content: test description
+      name: Mandarin test 1
+      content: 
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
@@ -119,8 +119,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Mandarin songs 2
-      content: test description
+      name: Mandarin test 2
+      content: 
       showWaveform: false
       enableLooping: false 
       reference: configs/resources/audio/normalised_IN_K.wav
@@ -134,7 +134,7 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Cantonese songs 1
+      name: Cantonese test 1
       content: Cantonese test 1
       showWaveform: false
       enableLooping: false 
@@ -152,8 +152,8 @@ pages:
 
     - type: mushra
       id: trial2
-      name: Mono Trial
-      content: Cantonese songs 2
+      name: Cantonese test 2
+      content: 
       showWaveform: false
       enableLooping: false 
       reference: configs/resources/audio/normalised_CantoIndie.wav
