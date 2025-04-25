@@ -31,7 +31,7 @@ pages:
       id: ai_reasoning
       name: Demographics & AI Reasoning
       content: Please select your gender and list the main features that influenced your decision in bullet points.
-
+      gender: true
     
 
     
@@ -177,7 +177,7 @@ pages:
       id: ai_reasoning
       name: AI Reasoning
       content: Please list the main features that influenced your decision in bullet points.
-      
+      aiReasoning: true
 
 
     - type: finish
