@@ -26,12 +26,28 @@ pages:
       id: lang_fam
       name: Language Familiarity
       content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
+
+    - type: generic
+      id: demographics_gender
+      name: Demographics
+      content: >
+        Please select your gender.
+      select:
+        id: gender
+        options:
+          - Prefer not to say
+          - Female
+          - Male
+          - Non-binary
+          - Other
+    
+
     
 
     - type: mushra
       id: trial2
       name: English test 1
-      content: There will be 2 tests for each language. Test 1 will be same song; Test 2 will be different song.
+      content: For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs.
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
@@ -164,6 +180,15 @@ pages:
           C2: configs/resources/audio/normalised_CantoRap.wav
           C3: configs/resources/audio/normalised_Suno_CantoPop.wav
           C4: configs/resources/audio/normalised_CantoIndie2.wav
+
+    - type: generic
+      id: ai_reasoning
+      name: AI Reasoning
+      content: Please list the main features that influenced your decision in bullet points.
+      textinput:
+        id: ai_decision_reason
+        rows: 5
+        cols: 60
 
 
     - type: finish
