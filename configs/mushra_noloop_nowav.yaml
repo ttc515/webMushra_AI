@@ -27,11 +27,11 @@ pages:
       name: Language Familiarity
       content: "Please rate your familiarity with the following languages (0 = not familiar, 100 = very familiar)."
 
-    - type: generic
-      id: ai_reasoning
-      name: Demographics & AI Reasoning
-      content: "Please select your gender and list the main features that influenced your decision in bullet points."
-      #gender: true
+    - type: gender
+      id: demographics_gender
+      name: Gender
+      content: Please select your gender from the options below.
+
     
 
     
@@ -173,11 +173,7 @@ pages:
           C3: configs/resources/audio/normalised_Suno_CantoPop.wav
           C4: configs/resources/audio/normalised_CantoIndie2.wav
 
-    - type: generic
-      id: ai_reasoning
-      name: AI Reasoning
-      content: Please list the main features that influenced your decision in bullet points.
-      aiReasoning: true
+    
 
 
     - type: finish

@@ -108,6 +108,8 @@ function addPagesToPageManager(_pageManager, _pages) {
       } else if (pageConfig.type == "languageFamiliarity") {
         var page = new LanguageFamiliarityPage(_pageManager, session, pageConfig, config.language);
         _pageManager.addPage(page);
+      } else if (pageConfig.type == "gender") {
+        _pageManager.addPage(new GenderPage(_pageManager, pageConfig));
       } else {
 
         errorHandler.sendError("Type not specified.");
