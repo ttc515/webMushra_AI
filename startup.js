@@ -109,8 +109,8 @@ function addPagesToPageManager(_pageManager, _pages) {
         var page = new LanguageFamiliarityPage(_pageManager, session, pageConfig, config.language);
         _pageManager.addPage(page);
       } else if (pageConfig.type == "gender") {
-        var page = new GenderPage(_pageManager, session, pageConfig, config.language);
-        _pageManager.addPage(page);
+        var Genderpage = new GenderPage(_pageManager, session, pageConfig, config.language);
+        _pageManager.addPage(Genderpage);
       }
        else {
 
