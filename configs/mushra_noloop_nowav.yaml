@@ -31,7 +31,7 @@ pages:
     
 
     - type: gender
-      id: demographics_gender
+      id: gender
       name: Gender
       content: Please select your gender from the list below.
 
@@ -39,7 +39,7 @@ pages:
     
 
     - type: mushra
-      id: trial2
+      id: english_test_1
       name: English test 1
       content: "For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs."
       showWaveform: false
@@ -57,7 +57,7 @@ pages:
     
 
     - type: mushra
-      id: trial2
+      id: english_test_2
       name: English test 2
       content: 
       showWaveform: false
@@ -73,7 +73,7 @@ pages:
           
 
     - type: mushra
-      id: trial2
+      id: japanese_test_1
       name: Japanese test 1
       content: 
       showWaveform: false
@@ -91,7 +91,7 @@ pages:
     
 
     - type: mushra
-      id: trial2
+      id: japanese_test_2
       name: Japanese test 2
       content: 
       showWaveform: false
@@ -110,7 +110,7 @@ pages:
   
 
     - type: mushra
-      id: trial2
+      id: mandarin_test_1
       name: Mandarin test 1
       content: 
       showWaveform: false
@@ -128,7 +128,7 @@ pages:
     
 
     - type: mushra
-      id: trial2
+      id: mandarin_test_2
       name: Mandarin test 2
       content: 
       showWaveform: false
@@ -143,9 +143,9 @@ pages:
           C4: configs/resources/audio/normalised_ManIndie3.wav
 
     - type: mushra
-      id: trial2
+      id: cantonese_test_1
       name: Cantonese test 1
-      content: Cantonese test 1
+      content: 
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
@@ -161,7 +161,7 @@ pages:
     
 
     - type: mushra
-      id: trial2
+      id: cantonese_test_2
       name: Cantonese test 2
       content: 
       showWaveform: false
