@@ -15,7 +15,7 @@ pages:
       content: "This is a MUSHRA listening test designed to investigate participants' perception of and ability to identify AI-generated singers. You will listen to a series of short audio samples sung by either AI or human performers. For each sample, you will provide two ratings:
                 Human-likeness – how much the voice sounds like a human singer (0 = clearly AI, 100 = clearly human)
                 Quality and appeal – how much you would enjoy hearing the track in a concert (0 = poor quality / not enjoyable, 100 = excellent / very enjoyable)
-                The test will take approximately 10–15 minutes to complete. Your responses will be anonymised and securely stored. Participation is voluntary, and you may choose not to answer any question or exit the test at any time.
+                The test will take approximately 15-20 minutes to complete. Your responses will be anonymised and securely stored. Participation is voluntary, and you may choose not to answer any question or exit the test at any time.
                 
                 Before starting the test, please adjust the volume starting from 0 to a comfortable level. Please complete this test independently without consulting others or using online resources, so that your responses reflect your own personal opinion. 
                 
@@ -41,7 +41,7 @@ pages:
     - type: mushra
       id: english_test_1
       name: English test 1
-      content: "For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs."
+      content: "For each language, you will complete two tests. Test 1 will involve the same song across conditions, while Test 2 will involve different songs. You may listen to the reference track first, the reference track of all tests will be human"
       showWaveform: false
       enableLooping: false 
       sliderCount: 2 
