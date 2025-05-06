@@ -106,3 +106,4 @@ for i = 1:length(files)
 end
 
 disp('All files have been resampled (if needed) and peak-normalised.');
+
