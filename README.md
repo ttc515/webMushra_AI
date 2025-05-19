@@ -1,5 +1,7 @@
 # webMUSHRA
-This repo is copied from the original webMushra repo, and modified for the MEng project. Result analysis methods can be found in the Result Analysis folder. Run the readResult.m, TableAddCol.m, then dataAnalysis.m, before running individual analyses towards different languages/conditions.
+This repo is copied from the original webMUSHRA repo(https://github.com/audiolabs/webMUSHRA), and modified for the MEng project. Result analysis methods can be found in the Result Analysis folder. Run the readResult.m, TableAddCol.m, then dataAnalysis.m, before running individual analyses towards different languages/conditions. The test is setup by running AI_webMushra.ipynb using Anaconda.
+
+
 [![GitHub release](https://img.shields.io/github/release/audiolabs/webMUSHRA.svg)](https://github.com/audiolabs/webMUSHRA/releases/latest)
 [![Github All Releases](https://img.shields.io/github/downloads/audiolabs/webMUSHRA/total.svg)](https://github.com/audiolabs/webMUSHRA/releases/latest)
 [![Build Status](https://travis-ci.org/audiolabs/webMUSHRA.svg?branch=master)](https://travis-ci.org/audiolabs/webMUSHRA)
