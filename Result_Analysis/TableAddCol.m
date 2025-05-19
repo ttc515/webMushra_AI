@@ -1,74 +1,93 @@
+% First, expand CorrectStimuli to include the test ID too!
 CorrectStimuli = {
-    'C1_1','C2_1','C3_1','C4_1','C5_1',... % English Test 1
-    'C1_1','C2_1','C3_1','C4_1',...         % English Test 2
-    'C1_1','C2_1','C3_1','C4_1',...         % Japanese Test 1
-    'C1_1','C2_1','C3_1','C4_1','C5_1',...  % Japanese Test 2
-    'C1_1','C2_1','C3_1','C4_1',...         % Mandarin Test 1
-    'C1_1','C2_1','C3_1','C4_1',...         % Mandarin Test 2
-    'C1_1','C2_1','C3_1','C4_1','C5_1',...  % Cantonese Test 1
-    'C1_1','C2_1','C3_1','C4_1'             % Cantonese Test 2
-    };
-disp(CorrectStimuli)
+    'english_test_1','C1_1','AI';
+    'english_test_1','C2_1','AI';
+    'english_test_1','C3_1','Human';
+    'english_test_1','C4_1','AI';
+    'english_test_1','C5_1','Human';
 
-CorrectAnswer = {
-    'AI','AI','Human','AI','Human',...      % English Test 1
-    'AI','Human','AI','AI',...              % English Test 2
-    'AI','AI','AI','Human',...              % Japanese Test 1
-    'AI','AI','Human','AI','AI',...         % Japanese Test 2
-    'AI','Human','Human','AI',...           % Mandarin Test 1
-    'AI','Human','AI','Human',...           % Mandarin Test 2
-    'AI','Human','Human','Human','Human',...% Cantonese Test 1
-    'AI','Human','AI','Human'               % Cantonese Test 2
-    };
+    'english_test_2','C1_1','AI';
+    'english_test_2','C2_1','Human';
+    'english_test_2','C3_1','AI';
+    'english_test_2','C4_1','AI';
 
-correctTable = table(CorrectStimuli', CorrectAnswer', 'VariableNames', {'CorrectStimuli','CorrectAnswer'});
+    'japanese_test_1','C1_1','AI';
+    'japanese_test_1','C2_1','AI';
+    'japanese_test_1','C3_1','AI';
+    'japanese_test_1','C4_1','Human';
 
-%%
-% Initialise
+    'japanese_test_2','C1_1','AI';
+    'japanese_test_2','C2_1','AI';
+    'japanese_test_2','C3_1','Human';
+    'japanese_test_2','C4_1','AI';
+    'japanese_test_2','C5_1','AI';
+
+    'mandarin_test_1','C1_1','AI';
+    'mandarin_test_1','C2_1','Human';
+    'mandarin_test_1','C3_1','Human';
+    'mandarin_test_1','C4_1','AI';
+
+    'mandarin_test_2','C1_1','AI';
+    'mandarin_test_2','C2_1','Human';
+    'mandarin_test_2','C3_1','AI';
+    'mandarin_test_2','C4_1','Human';
+
+    'cantonese_test_1','C1_1','AI';
+    'cantonese_test_1','C2_1','Human';
+    'cantonese_test_1','C3_1','Human';
+    'cantonese_test_1','C4_1','Human';
+    'cantonese_test_1','C5_1','Human';
+
+    'cantonese_test_2','C1_1','AI';
+    'cantonese_test_2','C2_1','Human';
+    'cantonese_test_2','C3_1','AI';
+    'cantonese_test_2','C4_1','Human'
+};
+
+% Create table
+correctTable = cell2table(CorrectStimuli, 'VariableNames', {'TestID','Stimulus','CorrectAnswer'});
+
+%% Assign correct answers to the main data table
 
 data.CorrectAnswer = repmat({''}, height(data), 1);
-
 
 for i = 1:height(data)
 
     stimID = data.responses_stimulus{i};
     testID = data.wm_id{i};
 
-    
+    % Only _1 stimuli (AI ID questions)
     if endsWith(stimID, '_1')
 
-       
-        if strcmp(testID,'english_test_1')
-            testNum = 1;
-        elseif strcmp(testID,'english_test_2')
-            testNum = 2;
-        elseif strcmp(testID,'japanese_test_1')
-            testNum = 3;
-        elseif strcmp(testID,'japanese_test_2')
-            testNum = 4;
-        elseif strcmp(testID,'mandarin_test_1')
-            testNum = 5;
-        elseif strcmp(testID,'mandarin_test_2')
-            testNum = 6;
-        elseif strcmp(testID,'cantonese_test_1')
-            testNum = 7;
-        elseif strcmp(testID,'cantonese_test_2')
-            testNum = 8;
-        else
-            testNum = NaN;
-        end
+        % Search for a row where both testID and stimID match
+        matchRow = strcmp(correctTable.TestID, testID) & strcmp(correctTable.Stimulus, stimID);
 
-        stimMatches = strcmp(CorrectStimuli, stimID); % rows in correctTable with this stimID
-        whichStim = find(stimMatches); % indices in CorrectStimuli
-
-        % Pick the correct occurrence
-        if ~isempty(whichStim) && length(whichStim) >= testNum
-            tableRow = whichStim(testNum); % Pick the nth occurrence
-            data.CorrectAnswer{i} = CorrectAnswer{tableRow};
+        if any(matchRow)
+            data.CorrectAnswer{i} = correctTable.CorrectAnswer{matchRow};
         else
-            data.CorrectAnswer{i} = ''; % No match 
+            data.CorrectAnswer{i} = ''; % No match found
         end
 
     end
 end
 
+% List of AI experience values in the same order as the 20 participants
+ai_music_exp = [1, 1, 1, 1, NaN, NaN, 0, 1, 1, 0, 0, 1, 0, NaN, 0, NaN, NaN, NaN, 0, 0];
+
+% Get the unique participant IDs
+participants = unique(data.questionaire_uuid, 'stable'); % ensure same order
+
+% Preallocate column
+data.AIMusicExperience = NaN(height(data), 1);
+
+% Loop through and assign the experience value to all rows of each participant
+for i = 1:numel(participants)
+    thisParticipant = participants{i};
+    expVal = ai_music_exp(i);
+
+    % Find all rows from this participant
+    idx = strcmp(data.questionaire_uuid, thisParticipant);
+    
+    % Assign the experience value
+    data.AIMusicExperience(idx) = expVal;
+end
