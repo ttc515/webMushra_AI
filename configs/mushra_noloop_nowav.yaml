@@ -78,7 +78,6 @@ pages:
       content: 
       showWaveform: false
       enableLooping: false 
-      #sliderCount: 2 
       reference: configs/resources/audio/normalised_39_ref.wav
       createAnchor35: false
       createAnchor70: false
